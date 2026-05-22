@@ -1,0 +1,20 @@
+{
+  "name": "amministrazione-condivisa",
+  "version": "0.1.0",
+  "description": "Plugin per l'analisi e la produzione di avvisi, convenzioni e relazioni tecniche nei procedimenti di coprogrammazione e coprogettazione ex art. 55 D.Lgs. 117/2017 (Codice del Terzo Settore). Include corpus normativo organizzato e wiki Obsidian collegata.",
+  "author": {
+    "name": "Nicolò Basile",
+    "organization": "POST Società Benefit"
+  },
+  "keywords": [
+    "amministrazione-condivisa",
+    "terzo-settore",
+    "coprogrammazione",
+    "coprogettazione",
+    "ETS",
+    "art-55-CTS",
+    "legal-tech",
+    "italiano"
+  ],
+  "license": "proprietary"
+}

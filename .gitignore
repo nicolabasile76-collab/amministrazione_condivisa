@@ -1,0 +1,39 @@
+# Estratti di testo automatici (rigenerabili da pdftotext)
+normativa/_estratti-txt/
+normativa/_inventario-pre-smistamento.txt
+
+# Output runtime dell'agente (bozze, relazioni, analisi)
+output/
+
+# Obsidian — file di workspace personali, non condivisibili
+wiki/.obsidian/workspace*
+wiki/.obsidian/workspaces.json
+wiki/.obsidian/cache
+wiki/.obsidian/graph.json
+wiki/.obsidian/hotkeys.json
+wiki/.obsidian/types.json
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+*.tmp
+
+# Log
+*.log
+
+# Locale agli utenti
+.env
+.env.local
+*.local
+
+# Allegati Obsidian se generati automaticamente
+wiki/_attachments/

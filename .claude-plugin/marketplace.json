@@ -1,0 +1,25 @@
+{
+  "name": "amministrazione-condivisa",
+  "owner": {
+    "name": "POST Società Benefit",
+    "url": "https://github.com/"
+  },
+  "plugins": [
+    {
+      "name": "amministrazione-condivisa",
+      "source": ".",
+      "description": "Plugin Claude Code per analisi e produzione di avvisi, convenzioni e relazioni tecniche nei procedimenti di coprogrammazione e coprogettazione ex art. 55 D.Lgs. 117/2017 (Codice del Terzo Settore). Include corpus normativo e wiki Obsidian.",
+      "version": "0.1.0",
+      "keywords": [
+        "amministrazione-condivisa",
+        "terzo-settore",
+        "coprogrammazione",
+        "coprogettazione",
+        "ETS",
+        "art-55-CTS",
+        "italiano",
+        "legal-tech"
+      ]
+    }
+  ]
+}
