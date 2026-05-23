@@ -28,6 +28,10 @@ Percorso: `primarie/altre-leggi/`
 |--------|------|------|
 | L. 7 agosto 1990, n. 241 — Procedimento amministrativo (testo agg. 2015) | `primarie/altre-leggi/legge-241-1990-procedimento-amministrativo.pdf` | (da creare) |
 | D.Lgs. 15 giugno 2015, n. 81 — Jobs Act / riordino contratti di lavoro | `primarie/altre-leggi/dlgs-81-2015-jobs-act.pdf` | (da creare) |
+| D.Lgs. 18 agosto 2000, n. 267 — Testo Unico Enti Locali (TUEL) | `primarie/altre-leggi/dlgs-267-2000-tuel.pdf` | [[DLgs-267-2000-TUEL]] |
+| D.Lgs. 14 marzo 2013, n. 33 — Codice della Trasparenza (riordino obblighi pubblicità, trasparenza, diffusione informazioni PA) | `primarie/altre-leggi/dlgs-33-2013-codice-trasparenza.pdf` | [[DLgs-33-2013-Codice-Trasparenza]] |
+| L. 13 agosto 2010, n. 136 — Piano straordinario contro le mafie (tracciabilità flussi finanziari, CIG/CUP) | `primarie/altre-leggi/legge-136-2010-antimafia.pdf` | [[Legge-136-2010-Antimafia]] |
+| L. 4 agosto 2017, n. 124 — Legge annuale per il mercato e la concorrenza (commi 125-129: trasparenza erogazioni pubbliche) | `primarie/altre-leggi/legge-124-2017-concorrenza.pdf` | [[Legge-124-2017-Concorrenza]] |
 
 ---
 
@@ -136,7 +140,11 @@ Percorso: `fiscalita-ets/`
 ## 🔒 Trasversali
 
 ### Sicurezza sul lavoro
-Percorso: `sicurezza/` — *da caricare (D.Lgs. 81/2008 TU sicurezza)*
+Percorso: `sicurezza/`
+
+| Titolo | File | Wiki |
+|--------|------|------|
+| D.Lgs. 9 aprile 2008, n. 81 — Testo Unico Sicurezza sul Lavoro (ed. Ispettorato Nazionale Lavoro gennaio 2025, coordinato) | `sicurezza/dlgs-81-2008-tu-sicurezza-lavoro.pdf` | [[DLgs-81-2008-TU-Sicurezza-Lavoro]] |
 
 ### Privacy
 Percorso: `privacy/` — *da caricare (Reg. UE 2016/679 GDPR, D.Lgs. 196/2003 e ss.mm.ii., provvedimenti Garante)*
