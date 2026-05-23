@@ -1,5 +1,9 @@
 ---
-tags: [post, amministrazione-condivisa, concetto, procedura]
+tags:
+  - post
+  - amministrazione-condivisa
+  - concetto
+  - procedura
 type: concetto
 fonte-primaria: art. 55 D.Lgs. 117/2017
 last-review: 2026-05-22

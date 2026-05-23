@@ -99,6 +99,17 @@ In sintesi, dopo aver accettato l'invito GitHub e fatto `gh auth login`:
 /plugin install amministrazione-condivisa@amministrazione-condivisa
 ```
 
+### Installazione alternativa user-level (per FleetView / PAI / ambienti senza `/plugin`)
+
+Se il tuo ambiente Claude Code non supporta `/plugin marketplace add`, puoi installare il plugin a livello **user-level** con prefisso `ac-` lanciando lo script PowerShell incluso:
+
+```powershell
+cd "percorso\al\plugin\Amministrazione Condivisa"
+PowerShell -ExecutionPolicy Bypass -File scripts\install-user-level.ps1
+```
+
+Dettagli e script di disinstallazione in [`scripts/README.md`](scripts/README.md).
+
 Dopo l'installazione, in qualunque progetto Claude Code sarà disponibile:
 
 - l'agente `ac-expert` (Task tool)
