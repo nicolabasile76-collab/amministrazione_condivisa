@@ -19,6 +19,13 @@ Thumbs.db
 desktop.ini
 $RECYCLE.BIN/
 
+# Lock file di MS Office / LibreOffice (quando un file è aperto)
+~$*
+.~lock.*
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
 # Editor / IDE
 .vscode/
 .idea/
