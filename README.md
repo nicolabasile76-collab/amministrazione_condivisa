@@ -85,7 +85,11 @@ L'agente legge il file, lo indicizza, e crea la nota wiki con backlink ai concet
 
 ## Installazione (Claude Code)
 
-Questo plugin è distribuito via marketplace mono-plugin GitHub. Per installarlo:
+> ⚠️ Questo è un **plugin a distribuzione privata**. Il repo è privato; l'accesso si ottiene solo su invito del maintainer.
+>
+> 📖 **Per i collaboratori invitati**: leggi prima [`docs/INVITO-COLLABORATORI.md`](docs/INVITO-COLLABORATORI.md) — guida step-by-step in 6 passi.
+
+In sintesi, dopo aver accettato l'invito GitHub e fatto `gh auth login`:
 
 ```bash
 # Una sola volta — aggiungi il marketplace
