@@ -118,7 +118,12 @@ Percorso: `giurisprudenza/cassazione/` — *da caricare*
 ## 🏛️ Prassi amministrativa
 
 ### ANAC
-Percorso: `prassi-anac/` — *da caricare*
+Percorso: `prassi-anac/`
+
+| Tipo | ID | Data | Argomento | File | Wiki |
+|------|----|----|-----------|------|------|
+| Comunicato del Presidente ANAC (Cantone) | — | 21/11/2018 | Affidamenti a ETS — posizione storica "concorrenziale" superata da [[131-2020]] (PDF scansionato, OCR pendente) | `prassi-anac/comunicato-presidente-anac-21-11-2018.pdf` | [[Comunicato-Presidente-ANAC-21-11-2018]] |
+| FAQ Tracciabilità — punto E.1 | E.1 | agg. 19/12/2023 | Servizi sociali esclusi dal codice (incluse coprog/coprog/conv. 56) **soggetti** a obbligo CIG, conto dedicato, tracciabilità | `prassi-anac/faq-anac-tracciabilita-servizi-sociali.docx` | [[FAQ-ANAC-Tracciabilita-Servizi-Sociali]] |
 
 ### MLPS (Ministero del Lavoro e delle Politiche Sociali) e Conferenza Unificata
 Percorso: `prassi-mlps/` — *(le Intese Stato-Regioni sono in `secondarie/regolamenti/`)*
@@ -166,7 +171,19 @@ Percorso: `dottrina/`
 
 ## 🏘️ Modelli di altre PA (benchmark)
 
-Percorso: `modelli-pa/` — *da popolare con avvisi e convenzioni reali di altre PA come benchmark*
+### Avvisi
+Percorso: `modelli-pa/avvisi/`
+
+| Ente | Anno | Tipologia | Oggetto | File | Wiki |
+|------|------|-----------|---------|------|------|
+| Comune di Gorgonzola (MI) | 2024 | Coprogettazione | Sistema Territoriale Integrato Domiciliare a sostegno della Fragilità + Centro della Longevità — biennio 2024-2026, CUP F21H24000130004, CIG B25194243A | `modelli-pa/avvisi/comune-gorgonzola-2024-avviso-coprogettazione-fragilita-longevita.pdf` | [[Avviso-Gorgonzola-2024-Coprogettazione-Fragilita]] |
+
+### Convenzioni
+Percorso: `modelli-pa/convenzioni/`
+
+| Ente | Anno | Tipologia | Oggetto | File | Wiki |
+|------|------|-----------|---------|------|------|
+| Azienda Speciale Consortile Comuni Insieme (Lombardia, area Baranzate) | 2026-2029 (schema) | Convenzione esito coprogettazione | Progetto "DesTEENazione" — interventi educativi scolastici, domiciliari, territoriali per pre-adolescenti/adolescenti | `modelli-pa/convenzioni/azienda-comuni-insieme-convenzione-coprogettazione-desteenazione.docx` | [[Convenzione-Comuni-Insieme-DesTEENazione]] |
 
 ---
 
