@@ -64,6 +64,18 @@ A titolo di **rimborso dei costi effettivamente sostenuti e documentati** + quot
 - PA arriva al tavolo con il progetto già completamente definito (assenza di codefinizione reale).
 - Requisiti tarati su un ETS specifico ("bando fotografia").
 - Confusione con [[Coprogrammazione]] (è altra fase).
+- **Mancanza di un atto di coprogrammazione presupposto formale e partecipato** → vedi nuovo orientamento [[tar-toscana-sez4-840-2026]].
+
+## ⭐ Conseguenze in caso di vizio (orientamento 2026)
+
+[[tar-toscana-sez4-840-2026|TAR Toscana 840/2026]] (30/04/2026) ha chiarito le **conseguenze pratiche** dell'attivazione di coprogettazione senza un valido presupposto programmatorio:
+
+1. **Annullamento integrale** della procedura (avviso + esiti + verbali commissione + atti di approvazione)
+2. **Dichiarazione di inefficacia** della convenzione, anche se **già stipulata e in esecuzione** (art. 121 c. 1 lett. a) e b) c.p.a.)
+3. **Inapplicabilità dell'art. 6 D.Lgs. 36/2023** (esclusione codice contratti): la procedura **decade** in "affidamento unilaterale del servizio non legittimato né dal Codice del Terzo settore né dal Codice dei contratti pubblici"
+4. **Applicabilità del rito speciale appalti** (artt. 120 e ss. c.p.a.) con quanto ne consegue per contributo unificato, tempi processuali, dichiarazione di inefficacia
+
+**Lezione operativa**: la clausola di esclusione codice contratti negli avvisi (es. "fattispecie estranea al D.Lgs. 36/2023") **non protegge** se la procedura sostanzialmente non rispetta il modello CTS — in primis il presupposto della coprogrammazione partecipata.
 
 ## Esito formalizzato
 

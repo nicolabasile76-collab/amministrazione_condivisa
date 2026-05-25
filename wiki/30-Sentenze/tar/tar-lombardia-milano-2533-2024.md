@@ -91,3 +91,17 @@ A) Mancata esclusione di Onlus dell'ATI controinteressata per omessa iscrizione 
 - [[Coprogettazione]]
 - [[Procedura-Evidenza-Pubblica]]
 - [[ETS-Enti-Terzo-Settore]]
+- [[cds-3082-2026]] *(riforma in appello, aprile 2026)*
+- [[tar-toscana-sez4-840-2026]] *(dialogo critico, aprile 2026)*
+
+---
+
+## 🆕 Aggiornamento maggio 2026 — Dialogo critico con TAR Toscana 840/2026
+
+Successivamente alla riforma da parte di [[cds-3082-2026|CDS Sez. V n. 3082/2026]] (20/04/2026), questa sentenza è stata oggetto di un **richiamo critico** in [[tar-toscana-sez4-840-2026|TAR Toscana Sez. IV n. 840/2026]] (30/04/2026).
+
+Il TAR Toscana giudica **"non condivisibile"** la posizione qui sostenuta sulla mancanza di una "rigida gerarchia" tra coprogrammazione e coprogettazione, ma chiarisce che — letta unitariamente al successivo CDS 3082/2026 — la sentenza Casa Jannacci è comunque coerente con la sistematica "a cascata", **purché** sia presente in fatto una sostanziale **istruttoria partecipata di individuazione dei bisogni** (come il "piano di sviluppo del welfare" del Comune di Milano approvato con DCC 99/2022).
+
+**Distinzione operativa**: nella vicenda Casa Jannacci esisteva *de facto* un atto di programmazione partecipata che ha funzionato da coprogrammazione; nella vicenda Livorno (TAR Toscana 840/2026) **mancava** completamente la fase partecipata, sostituita da atti programmatori unilaterali della PA. Da qui l'esito opposto: legittima nel primo caso, illegittima nel secondo.
+
+Per la trattazione completa del principio della coprogrammazione presupposta vedi la nota [[tar-toscana-sez4-840-2026]].

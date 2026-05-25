@@ -58,6 +58,19 @@ Il documento di programmazione può portare a:
 - Sovrapporre coprogrammazione e coprogettazione nello stesso atto.
 - Trattare la coprogrammazione come una "gara" di idee.
 - Usare l'avviso per filtrare ETS in vista di affidamenti futuri.
+- **Surrogare la coprogrammazione con atti unilaterali della PA** (esperienza pregressa del servizio, richieste delle istituzioni territoriali, conoscenza del territorio) — *vizio sostanziale, non sanabile*, come chiarito da [[tar-toscana-sez4-840-2026]] (30/04/2026): la coprogrammazione richiede un'**istruttoria partecipata** con coinvolgimento attivo degli ETS.
+
+## ⭐ Coprogrammazione come presupposto strutturale della coprogettazione
+
+La giurisprudenza più recente ([[tar-toscana-sez4-840-2026]], 30/04/2026; in dialogo con [[131-2020]], [[cds-5217-2023]], [[cds-6232-2021]], [[cds-3082-2026]]) ha consolidato il principio della **sistematica "a cascata"**:
+
+- la coprogettazione ex art. 55 c. 3 CTS **richiede** una preliminare coprogrammazione ex art. 55 c. 2 quale **presupposto necessario di legittimità**;
+- la coprogrammazione **non può essere surrogata** da atti unilaterali della PA;
+- la mancanza della coprogrammazione è **vizio sostanziale** (non meramente formale);
+- in tal caso, l'atto **decade nello status di affidamento unilaterale illegittimo** (fuori sia dal CTS che dal Codice contratti, art. 6 D.Lgs. 36/2023 non protegge);
+- si applica il **rito speciale appalti** (artt. 120-121 c.p.a.) con possibile **inefficacia retroattiva della convenzione** già stipulata.
+
+**Eccezione (caso Casa Jannacci [[cds-3082-2026]])**: ammessa "fusione" coprogrammazione/coprogettazione **se** esiste *de facto* una sostanziale istruttoria partecipata di individuazione dei bisogni (es. piano welfare comunale approvato con DCC partecipata).
 
 ## Fonti
 

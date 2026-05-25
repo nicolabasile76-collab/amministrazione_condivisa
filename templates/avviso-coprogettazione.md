@@ -245,6 +245,11 @@ Il Responsabile del Procedimento
 <!--
 ==== CHECKLIST PRE-PUBBLICAZIONE ====
 
+- [ ] ⭐ **VERIFICA RAFFORZATA presupposto programmatorio** (cfr. [[tar-toscana-sez4-840-2026]], 30/04/2026):
+      → esiste un ATTO formale di coprogrammazione ex art. 55 c. 2 CTS?
+      → l'atto presupposto è frutto di istruttoria PARTECIPATA con coinvolgimento ETS?
+      → NON sostituibile da atti unilaterali (esperienza pregressa, richieste istituzioni, conoscenza territorio)
+      → in caso di lacuna: rischio annullamento + INEFFICACIA convenzione + rito speciale appalti
 - [ ] Atto di programmazione presupposto richiamato
 - [ ] Riferimento esplicito a sent. 131/2020 e modulo collaborativo
 - [ ] NESSUN rimando a D.Lgs. 36/2023 (codice contratti)
