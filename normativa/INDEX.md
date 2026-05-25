@@ -109,6 +109,7 @@ Percorso: `giurisprudenza/tar/` — **21 sentenze + 1 scansione**
 | TAR Lombardia, Milano | II | 2533/2024 | 01/10/2024 | Casa Jannacci PNRR — legittimità fase selettiva preliminare e valutazione integrata. **Riformata da CDS 3082/2026** | `giurisprudenza/tar/tar-lombardia-milano-2533-2024.pdf` | [[tar-lombardia-milano-2533-2024]] |
 | TAR Campania | n.d. | 2334/2024 | 02/12/2024 | Comune Battipaglia, Albo accreditamento — accreditamento ≠ appalto, ma requisiti affidabilità sostanziali | `giurisprudenza/tar/tar-campania-2334-2024.pdf` (+ sintesi `-sintesi.pdf`) | [[tar-campania-2334-2024]] |
 | TAR Toscana | n.d. | n.d. | n.d. | PDF scansionato — **OCR necessario** per estrarre testo | `giurisprudenza/tar/tar-toscana-scansione.pdf` | [[tar-toscana-scansione]] (stub) |
+| TAR Toscana | IV | **840/2026** *(leading case ⭐)* | 30/04/2026 | F.A.S.T. coop vs Provincia Livorno — assistenza disabili scolastica — annullamento coprogettazione per **mancanza coprogrammazione presupposta**; convenzione dichiarata inefficace ex art. 121 c.p.a. Dialogo critico con TAR Milano 2533/2024 | `giurisprudenza/tar/tar-toscana-sez4-840-2026.docx` | [[tar-toscana-sez4-840-2026]] |
 
 ### Cassazione
 Percorso: `giurisprudenza/cassazione/` — *da caricare*
