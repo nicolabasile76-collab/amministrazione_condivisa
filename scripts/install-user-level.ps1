@@ -49,6 +49,11 @@ $skillMap = @{
     "redigi-avviso-coprogettazione"    = "ac-redigi-avviso-coprogettazione"
     "redigi-convenzione"               = "ac-redigi-convenzione"
     "relazione-tecnica"                = "ac-relazione-tecnica"
+    # Skill ac-monitor-* (gia' con prefisso ac-, nome immutato)
+    "ac-monitor-giurisprudenza"        = "ac-monitor-giurisprudenza"
+    "ac-monitor-prassi"                = "ac-monitor-prassi"
+    "ac-monitor-normativa"             = "ac-monitor-normativa"
+    "ac-monitor-dottrina"              = "ac-monitor-dottrina"
 }
 
 # Rimuovi vecchie versioni (senza prefisso) se esistono
@@ -92,17 +97,18 @@ foreach ($old in $skillMap.Keys) {
     Write-Host "   + installata: ~/.claude/skills/$new"
 }
 
-# Installa agente
+# Installa agenti (tutti i file ac-*.md in agents/)
 Write-Host ""
-Write-Host "3) Installo agente ac-expert..." -ForegroundColor Yellow
-$agentSrc = Join-Path $base "agents\ac-expert.md"
-$agentDst = Join-Path $u "agents\ac-expert.md"
-$c = Get-Content $agentSrc -Raw -Encoding utf8
-$c = $c -replace "(?<![A-Za-z/])normativa/", "$baseFwd/normativa/"
-$c = $c -replace "(?<![A-Za-z/])wiki/", "$baseFwd/wiki/"
-$c = $c -replace "(?<![A-Za-z/])templates/", "$baseFwd/templates/"
-Set-Content -Path $agentDst -Value $c -Encoding utf8 -NoNewline
-Write-Host "   + installato: ~/.claude/agents/ac-expert.md"
+Write-Host "3) Installo agenti ac-* ..." -ForegroundColor Yellow
+Get-ChildItem (Join-Path $base "agents") -Filter "ac-*.md" -File | ForEach-Object {
+    $agentDst = Join-Path $u "agents\$($_.Name)"
+    $c = Get-Content $_.FullName -Raw -Encoding utf8
+    $c = $c -replace "(?<![A-Za-z/])normativa/", "$baseFwd/normativa/"
+    $c = $c -replace "(?<![A-Za-z/])wiki/", "$baseFwd/wiki/"
+    $c = $c -replace "(?<![A-Za-z/])templates/", "$baseFwd/templates/"
+    Set-Content -Path $agentDst -Value $c -Encoding utf8 -NoNewline
+    Write-Host ("   + installato: ~/.claude/agents/" + $_.Name)
+}
 
 # Installa commands (mantieni nomi con prefisso ac-)
 Write-Host ""

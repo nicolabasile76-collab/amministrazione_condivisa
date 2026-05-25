@@ -14,21 +14,20 @@ Write-Host ""
 Write-Host "=== Disinstallazione user-level del plugin Amministrazione Condivisa ===" -ForegroundColor Cyan
 Write-Host ""
 
-# Skill
+# Skill (tutte le ac-* nella cartella skills)
 $skillsRemoved = 0
 Get-ChildItem (Join-Path $u "skills") -Directory -ErrorAction SilentlyContinue |
-    Where-Object { $_.Name -match "^ac-(analizza|redigi|relazione)" } |
+    Where-Object { $_.Name -match "^ac-(analizza|redigi|relazione|monitor)" } |
     ForEach-Object {
         Remove-Item $_.FullName -Recurse -Force
         Write-Host ("  - rimossa skill: " + $_.Name) -ForegroundColor Yellow
         $skillsRemoved++
     }
 
-# Agente
-$agentPath = Join-Path $u "agents\ac-expert.md"
-if (Test-Path $agentPath) {
-    Remove-Item $agentPath -Force
-    Write-Host "  - rimosso agente: ac-expert.md" -ForegroundColor Yellow
+# Agenti (tutti gli ac-*.md)
+Get-ChildItem (Join-Path $u "agents\ac-*.md") -ErrorAction SilentlyContinue | ForEach-Object {
+    Remove-Item $_.FullName -Force
+    Write-Host ("  - rimosso agente: " + $_.Name) -ForegroundColor Yellow
 }
 
 # Commands
