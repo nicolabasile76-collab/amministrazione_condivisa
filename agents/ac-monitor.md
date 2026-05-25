@@ -53,8 +53,10 @@ E produrre un **report strutturato** con triage di rilevanza, pronto per la deci
 ### Fase 1 — Parsing della richiesta
 
 L'utente attiva ac-monitor con:
-- Comando: `/ac-monitor [periodo]` dove periodo è `7d`, `14d`, `30d`, `90d` (default: `7d`)
+- Comando: `/ac-monitor [periodo]` dove periodo è `7d`, `14d`, **`30d` (default)**, `90d`
 - Oppure messaggio naturale ("cerca le sentenze recenti", "novità ANAC", ecc.)
+
+> 💡 **Lezione MVP (test 25/05/2026)**: le fonti italiane (giustizia-amministrativa, ANAC, MLPS, Normattiva) hanno filtraggio per data poco affidabile via WebSearch. Una finestra `7d` produce di fatto risultati su 30-35 giorni. **Default operativo `30d`** per allineare aspettative a comportamento reale.
 
 Identifica:
 - **Periodo** di scansione (data di partenza)

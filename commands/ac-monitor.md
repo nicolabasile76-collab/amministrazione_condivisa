@@ -1,6 +1,6 @@
 ---
 description: Monitoring periodico novità giurisprudenza/prassi/normativa/dottrina CTS
-argument-hint: "[periodo: 7d|14d|30d|90d] [focus: giurisprudenza|prassi|normativa|dottrina|tutti]"
+argument-hint: "[periodo: 7d|14d|30d|90d, default 30d] [focus: giurisprudenza|prassi|normativa|dottrina|tutti]"
 ---
 
 # /ac-monitor
@@ -9,8 +9,10 @@ Lancia il monitoraggio periodico delle novità in materia di **Amministrazione C
 
 ## Argomenti
 
-- **$1** — periodo di scansione: `7d` (default), `14d`, `30d`, `90d`. Determina la finestra temporale a ritroso da oggi.
+- **$1** — periodo di scansione: `7d`, `14d`, **`30d` (default)**, `90d`. Determina la finestra temporale a ritroso da oggi.
 - **$2** — focus (opzionale): `giurisprudenza`, `prassi`, `normativa`, `dottrina`, `tutti` (default). Limita le skill attivate.
+
+> 💡 **Perché 30 giorni come default?** Il primo test del 25/05/2026 ha mostrato che le fonti italiane (giustizia-amministrativa, ANAC, MLPS, Normattiva) hanno indicizzazione lenta e filtraggio per data poco affidabile: finestra a 7 giorni produceva risultati di fatto su 30-35 giorni. Default `30d` allinea aspettative a comportamento reale.
 
 ## Comportamento
 
@@ -29,19 +31,19 @@ Lancia il monitoraggio periodico delle novità in materia di **Amministrazione C
 ## Esempi d'uso
 
 ```
-/ac-monitor 7d
+/ac-monitor
 ```
-→ Scansione completa degli ultimi 7 giorni su tutte le 4 categorie.
+→ Scansione completa degli ultimi **30 giorni** (default) su tutte le 4 categorie.
 
 ```
-/ac-monitor 30d giurisprudenza
+/ac-monitor 7d giurisprudenza
 ```
-→ Solo nuove sentenze TAR/CDS/Corte Cost. degli ultimi 30 giorni.
+→ Solo nuove sentenze degli ultimi 7 giorni (focus stretto).
 
 ```
-/ac-monitor 14d prassi
+/ac-monitor 30d prassi
 ```
-→ Solo nuovi atti ANAC/MLPS/Stato-Regioni degli ultimi 14 giorni.
+→ Solo nuovi atti ANAC/MLPS/Stato-Regioni degli ultimi 30 giorni.
 
 ```
 /ac-monitor 90d dottrina
@@ -78,7 +80,7 @@ L'agente esegue automaticamente per gli item selezionati:
 ## Note operative
 
 - **Costo**: ogni esecuzione fa 3-12 WebSearch + 5-20 WebFetch. Tempo medio: 30-90 secondi.
-- **Frequenza consigliata**: settimanale (ogni lunedì mattina, periodo `7d`) per giurisprudenza/prassi; mensile (periodo `30d`) per normativa/dottrina.
+- **Frequenza consigliata**: **mensile** (default `30d`) per tutte le categorie. La granularità settimanale (7d) è poco utile per le fonti italiane (vedi nota sopra).
 - **Limiti**: l'agente NON ingerisce automaticamente senza tua approvazione. Il triage è strumento di supporto, non sostituto della valutazione professionale.
 - **Affidabilità**: alcune fonti italiane (Normattiva, Giustizia Amministrativa) hanno restrizioni anti-scraping. In caso di mancato accesso, l'agente lo segnala esplicitamente.
 
