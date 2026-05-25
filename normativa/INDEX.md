@@ -29,6 +29,7 @@ Percorso: `primarie/altre-leggi/`
 | L. 7 agosto 1990, n. 241 — Procedimento amministrativo (testo agg. 2015) | `primarie/altre-leggi/legge-241-1990-procedimento-amministrativo.pdf` | (da creare) |
 | D.Lgs. 15 giugno 2015, n. 81 — Jobs Act / riordino contratti di lavoro | `primarie/altre-leggi/dlgs-81-2015-jobs-act.pdf` | (da creare) |
 | D.Lgs. 18 agosto 2000, n. 267 — Testo Unico Enti Locali (TUEL) | `primarie/altre-leggi/dlgs-267-2000-tuel.pdf` | [[DLgs-267-2000-TUEL]] |
+| ⭐ D.Lgs. 4 dicembre 2025, n. 186 — Correttivo CTS (ETS, crisi d'impresa, sport, IVA) — entrato in vigore 13/12/2025 | `primarie/altre-leggi/dlgs-186-2025-correttivo-terzo-settore.pdf` | [[DLgs-186-2025-Correttivo-Terzo-Settore]] |
 | D.Lgs. 14 marzo 2013, n. 33 — Codice della Trasparenza (riordino obblighi pubblicità, trasparenza, diffusione informazioni PA) | `primarie/altre-leggi/dlgs-33-2013-codice-trasparenza.pdf` | [[DLgs-33-2013-Codice-Trasparenza]] |
 | L. 13 agosto 2010, n. 136 — Piano straordinario contro le mafie (tracciabilità flussi finanziari, CIG/CUP) | `primarie/altre-leggi/legge-136-2010-antimafia.pdf` | [[Legge-136-2010-Antimafia]] |
 | L. 4 agosto 2017, n. 124 — Legge annuale per il mercato e la concorrenza (commi 125-129: trasparenza erogazioni pubbliche) | `primarie/altre-leggi/legge-124-2017-concorrenza.pdf` | [[Legge-124-2017-Concorrenza]] |
@@ -110,6 +111,7 @@ Percorso: `giurisprudenza/tar/` — **21 sentenze + 1 scansione**
 | TAR Campania | n.d. | 2334/2024 | 02/12/2024 | Comune Battipaglia, Albo accreditamento — accreditamento ≠ appalto, ma requisiti affidabilità sostanziali | `giurisprudenza/tar/tar-campania-2334-2024.pdf` (+ sintesi `-sintesi.pdf`) | [[tar-campania-2334-2024]] |
 | TAR Toscana | n.d. | n.d. | n.d. | PDF scansionato — **OCR necessario** per estrarre testo | `giurisprudenza/tar/tar-toscana-scansione.pdf` | [[tar-toscana-scansione]] (stub) |
 | TAR Toscana | IV | **840/2026** *(leading case ⭐)* | 30/04/2026 | F.A.S.T. coop vs Provincia Livorno — assistenza disabili scolastica — annullamento coprogettazione per **mancanza coprogrammazione presupposta**; convenzione dichiarata inefficace ex art. 121 c.p.a. Dialogo critico con TAR Milano 2533/2024 | `giurisprudenza/tar/tar-toscana-sez4-840-2026.docx` | [[tar-toscana-sez4-840-2026]] |
+| TAR Sicilia, Catania (sez. stacc.) | n.d. | 124/2026 | 19/01/2026 | Coop sociale vs Comune di Catania — termine perentorio in procedura accreditamento ETS disabili psichici: legittimo, non trasforma in "competitiva chiusa" | (PDF da recuperare) | [[tar-sicilia-catania-124-2026]] |
 
 ### Cassazione
 Percorso: `giurisprudenza/cassazione/` — *da caricare*
@@ -167,6 +169,9 @@ Percorso: `dottrina/`
 | Titolo | Autore/Curatore | Anno | File | Wiki |
 |--------|-----------------|------|------|------|
 | Quaderni di Terzjus n. 5 — *L'Amministrazione Condivisa come laboratorio di innovazione. Appunti e indicazioni per il futuro prossimo delle politiche pubbliche* | Barbara L. Boschetti (cur.), Fondazione Terzjus ETS — Ed. Editoriale Scientifica | 2025 | `dottrina/terzjus-quaderno-02-04.pdf` | [[Terzjus-Quaderno-02-04-Amministrazione-Condivisa-Laboratorio]] |
+| ⭐ Terzjus — *Banca Dati Nazionale Coprogettazioni/Coprogrammazioni (COPROG Dataset)* — 3.190 avvisi 2018-2024, statistiche (90/10 coprog/coprog) | Luigi Bobba, Aurelio Molè (ricerca Patrick Vesan, Federico Razetti — Univ. Valle d'Aosta) | 2026 | (articolo web — non scaricato come PDF) | [[Terzjus-Banca-Dati-Coprogettazioni-2026]] |
+| Ius & Management — *Dietrofront del Consiglio di Stato: nella coprogettazione è possibile il rimborso del costo del personale retribuito* (commento a CDS 3082/2026) | Dario Di Maria | 2026 | (articolo web) | [[Ius-Management-Dietrofront-CDS-Rimborso-Personale-2026]] |
+| Cantiere Terzo Settore — *L'amministrazione condivisa nelle legislazioni regionali* (10 ambiti regionali, caso L.R. Basilicata 5/2026) | Chiara Meoli | 2026 | (articolo web) | [[Cantiere-TS-Legislazioni-Regionali-Amministrazione-Condivisa-2026]] |
 
 ---
 
