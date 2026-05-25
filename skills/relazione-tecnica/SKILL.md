@@ -104,7 +104,9 @@ Apri `templates/relazione-tecnica.md`.
 
 10. **Analisi dei rischi** (sezione critica)
 
-    Costruisci una **matrice di rischio**:
+    Costruisci una **matrice di rischio** + **visualizzazione spaziale (P × I)**.
+
+    ### A — Matrice tabellare:
 
     | # | Rischio | Categoria | Probabilità (1-5) | Impatto (1-5) | Punteggio | Mitigazione | Responsabile |
     |---|--------|-----------|------------------|---------------|-----------|-------------|--------------|
@@ -138,6 +140,37 @@ Apri `templates/relazione-tecnica.md`.
     **Di sostenibilità di lungo periodo**
     - Dipendenza del servizio dal singolo ETS
     - Mancanza di exit strategy
+
+    ### B — Visualizzazione spaziale (grafico P × I):
+
+    Al termine della costruzione della matrice tabellare, **genera SEMPRE** il grafico scatter probabilità × impatto eseguendo:
+
+    1. Estrai i dati della matrice in un file JSON `output/relazioni/_risk_<slug>.json`:
+       ```json
+       {
+         "title": "Matrice rischi — <progetto>",
+         "subtitle": "Probabilità × Impatto (scala 1-5) — <breve descrizione>",
+         "risks": [
+           {"id": "R1", "name": "<nome breve max 50 caratteri>", "p": <1-5>, "i": <1-5>},
+           ...
+         ]
+       }
+       ```
+    2. Esegui lo script PowerShell:
+       ```powershell
+       python scripts/generate-risk-matrix.py output/relazioni/_risk_<slug>.json output/relazioni/risk-matrix-<slug>.png
+       ```
+    3. **Embedda l'immagine** nel markdown della relazione subito dopo la matrice tabellare:
+       ```markdown
+       ![Matrice rischi — Probabilità × Impatto](risk-matrix-<slug>.png)
+       ```
+    4. Quando converti il markdown in Word con pandoc, **usa `--resource-path=`** sulla cartella `output/relazioni/` per includere automaticamente l'immagine nel `.docx`.
+
+    Il grafico mostra:
+    - assi P (probabilità 1-5) × I (impatto 1-5)
+    - sfondo a 3 colori (verde basso 1-5, giallo medio 6-12, rosso alto 13-25)
+    - punti scatter dimensionati per P×I, etichettati con ID rischio
+    - legenda zone + tabella laterale rischi ordinati per punteggio
 
 11. **Misure di mitigazione e governance**
     - Misure procedurali (es. pubblicità qualificata, commissione indipendente)

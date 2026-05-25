@@ -209,7 +209,21 @@ Punteggio = P × I (1–25).
 
 [Aggiungere/rimuovere voci secondo il caso.]
 
-### 7.2 Heat map (sintesi)
+### 7.2 Visualizzazione spaziale dei rischi (P × I)
+
+Posizionamento dei rischi sulla matrice probabilità × impatto. Le celle di sfondo rappresentano le zone di criticità (verde = basso 1-5; giallo = medio 6-12; rosso = alto 13-25). I punti più grandi indicano rischi a punteggio P×I più alto.
+
+![Matrice rischi — Probabilità × Impatto](risk-matrix-<slug>.png)
+
+> **Generazione automatica del grafico**: l'agente `ac-expert` (o l'operatore) genera questo grafico eseguendo:
+>
+> ```powershell
+> python scripts/generate-risk-matrix.py output/relazioni/_risk_<slug>.json output/relazioni/risk-matrix-<slug>.png
+> ```
+>
+> Input: file JSON con elenco rischi nel formato `{id, name, p, i}`. Output: PNG ~160 KB pronto per embedding in Markdown e Word (via pandoc).
+
+### 7.3 Heat map (sintesi)
 
 | Punteggio | Rischi |
 |-----------|--------|
